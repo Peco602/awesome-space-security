@@ -20,13 +20,13 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ## Contents
 
-- [Threat Modeling](#threat-modeling)
 - [Publications](#publications)
-    - [CCSDS](#consultative-committee-for-space-data-systems-ccsds)
-    - [NIST](#national-institute-of-standards-and-technology-nist)
-    - [METI](#ministry-of-economy-trade-and-industry-meti)
+- [Threat Modeling](#threat-modeling)
     - [BSI](#federal-office-for-information-security-bsi)
+    - [CCSDS](#consultative-committee-for-space-data-systems-ccsds)
     - [CNSS](#committee-on-national-security-systems-cnss)
+    - [METI](#ministry-of-economy-trade-and-industry-meti)
+    - [NIST](#national-institute-of-standards-and-technology-nist)
 - [Books](#publications)
 - [Conferences](#conferences)
 - [Papers](#papers)
@@ -65,11 +65,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ### National Institute of Standards and Technology (NIST)
 
-- [NIST SP 800-53 Rev. 5](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) - Security and Privacy Controls for Information Systems and Organizations
-- [NIST SP 800-161](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-161.pdf) - Supply Chain Risk Management Practices for Federal Information Systems and Organizations
 - [NIST IR 8270](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8270-draft2.pdf) - Introduction to Cybersecurity for Commercial Satellite Operations :construction:
-- [NIST IR 8401](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8401.pdf) - Satellite Ground Segment (*Applying the Cybersecurity Framework to Satellite Command and Control*)
 - [NIST IR 8323](https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8323.pdf) - Foundational PNT Profile: Applying the Cybersecurity Framework for the Responsible Use of Positioning, Navigation, and Timing (PNT) Services
+- [NIST IR 8401](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8401.pdf) - Satellite Ground Segment (*Applying the Cybersecurity Framework to Satellite Command and Control*)
+- [NIST SP 800-161](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-161.pdf) - Supply Chain Risk Management Practices for Federal Information Systems and Organizations
+- [NIST SP 800-53 Rev. 5](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) - Security and Privacy Controls for Information Systems and Organizations
 
 ### Ministry of Economy, Trade and Industry (METI)
 
@@ -95,3 +95,4 @@ Time-Triggered Ethernet](https://web.eecs.umich.edu/~barisk/public/pcspoof.pdf)
 - - -
 
 If you have any question about this opinionated list, do not hesitate to contact me [@Peco602](https://twitter.com/peco602) on Twitter or open an issue on GitHub.
+
