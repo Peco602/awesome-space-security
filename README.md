@@ -14,7 +14,7 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 
 **_If you see a link here that is not (any longer) a good fit, you can fix it by submitting a [pull request](https://github.com/Peco602/awesome-space-security/edit/main/README.md) to improve this file. Thank you!_**
 
-Inspired by [awesome-python](https://github.com/vinta/awesome-python).
+> Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ![Space Security](https://sparta.aerospace.org/theme/images/Threat_Landscape.png)
 
