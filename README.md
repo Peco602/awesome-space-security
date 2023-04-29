@@ -16,13 +16,18 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 
 Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
-![Space Security](https://sparta.aerospace.org/theme/images/FY21_10354_CSG_Space-Cyber_ISAC-Conference_Graphic-F.png)
+![Space Security](img/space-security.png)
 
 ## Contents
 
 - [Publications](#publications)
   - [CCSDS](#CCSDS)
   - [ECSS](#ECSS)
+  - [NASA](#NASA)
+  - [NIST](#NIST)
+- [Books](#publications)
+- [Conferences](#conferences)
+- [Papers](#papers)
 
 ---
 
@@ -48,15 +53,29 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ### ECSS
 
+- [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf) - The Application of Security to CCSDS Protocols
+
 ### NIST
+
+- [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf) - The Application of Security to CCSDS Protocols
 
 ### NASA
 
+- [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf) - The Application of Security to CCSDS Protocols
 
 ## Books
 
+- [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf) - The Application of Security to CCSDS Protocols
 
+## Papers
 
----
+- [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf) - The Application of Security to CCSDS Protocols
+
+## Conferences
+
+- [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf) - The Application of Security to CCSDS Protocols
+
+- - -
 
 If you have any question about this opinionated list, do not hesitate to contact me [@Peco602](https://twitter.com/peco602) on Twitter or open an issue on GitHub.
+
