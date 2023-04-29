@@ -11,15 +11,15 @@ theme:
     accent: pink
 extra:
   social:
-    - type: blog
+    - icon: fontawesome/solid/blog
       link: https://www.peco602.com
-    - type: github
+    - icon: fontawesome/brands/github
       link: https://github.com/peco602
-    - type: twitter
+    - icon: fontawesome/brands/twitter
       link: https://twitter.com/peco602
-    - type: linkedin
+    - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/giovanni-pecoraro-078500155/
-    - icon: paper-plane
+    - icon: fontawesome/solid/envelope
       link: mailto:giovanni1.pecoraro@protonmail.com
 #google_analytics:
 #  - UA-510626-7

@@ -1,4 +1,7 @@
-# Awesome Space Security [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Space Security [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+[![Check URLs](https://github.com/Peco602/awesome-space-security/actions/workflows/check-urls.yml/badge.svg)](https://github.com/Peco602/awesome-space-security/actions/workflows/check-urls.yml)
+[![GitHub Pages](https://github.com/Peco602/awesome-space-security/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/Peco602/awesome-space-security/actions/workflows/gh-pages.yml)
 
 > A curated list of awesome resources about the security of space systems.
 
@@ -17,18 +20,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ## Contents
 
-- [Legend](#legend)
 - [Publications](#publications)
   - [CCSDS](#CCSDS)
   - [ECSS](#ECSS)
 
 ---
-
-## Legend
-
--   Abandoned :skull:
--   Beta :construction:
--   Monetized :heavy_dollar_sign:
 
 ## Publications
 
