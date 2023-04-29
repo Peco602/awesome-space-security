@@ -28,3 +28,8 @@ extra_css:
     - css/extra.css
 nav:
   - "Failure Is Not An Option.": "index.md"
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg

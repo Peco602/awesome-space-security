@@ -16,24 +16,36 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 
 Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
-![Space Security](img/space-security.png)
+![Space Security](https://sparta.aerospace.org/theme/images/Threat_Landscape.png)
 
 ## Contents
 
+- [Threat Modeling](#threat-modeling)
 - [Publications](#publications)
-  - [CCSDS](#CCSDS)
-  - [ECSS](#ECSS)
-  - [NASA](#NASA)
-  - [NIST](#NIST)
+    - [CCSDS](#consultative-committee-for-space-data-systems-ccsds)
+    - [NIST](#national-institute-of-standards-and-technology-nist)
+    - [METI](#ministry-of-economy-trade-and-industry-meti)
+    - [BSI](#federal-office-for-information-security-bsi)
+    - [CNSS](#committee-on-national-security-systems-cnss)
 - [Books](#publications)
 - [Conferences](#conferences)
 - [Papers](#papers)
 
 ---
 
+## Legend
+
+-   Abandoned :skull:
+-   Beta :construction:
+-   Monetized :heavy_dollar_sign:
+
+## Threat Modeling
+
+- [Space Attack Research & Tactic Analysis (SPARTA)](https://sparta.aerospace.org/) - SPARTA is intended to provide unclassified information to space professionals about how spacecraft may be compromised via cyber and traditional counterspace means
+
 ## Publications
 
-### CCSDS
+### Consultative Committee for Space Data Systems (CCSDS)
 
 - [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf) - The Application of Security to CCSDS Protocols
 - [CCSDS 350.1-G-3](https://public.ccsds.org/Pubs/350x1g3.pdf) - Security Threats against Space Missions
@@ -51,31 +63,35 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [CCSDS 357.0-B-1](https://public.ccsds.org/Pubs/357x0b1.pdf) - CCSDS Authentication Credentials
 - [CCSDS A13.1-Y-1](https://public.ccsds.org/Pubs/A13x1y1.pdf) - CCSDS Recommended Procedures for Cloud-Based Interoperability Testing
 
-### ECSS
+### National Institute of Standards and Technology (NIST)
 
-- [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf) - The Application of Security to CCSDS Protocols
+- [NIST SP 800-53 Rev. 5](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) - Security and Privacy Controls for Information Systems and Organizations
+- [NIST SP 800-161](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-161.pdf) - Supply Chain Risk Management Practices for Federal Information Systems and Organizations
+- [NIST IR 8270](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8270-draft2.pdf) - Introduction to Cybersecurity for Commercial Satellite Operations :construction:
+- [NIST IR 8401](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8401.pdf) - Satellite Ground Segment (*Applying the Cybersecurity Framework to Satellite Command and Control*)
+- [NIST IR 8323](https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8323.pdf) - Foundational PNT Profile: Applying the Cybersecurity Framework for the Responsible Use of Positioning, Navigation, and Timing (PNT) Services
 
-### NIST
+### Ministry of Economy, Trade and Industry (METI)
 
-- [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf) - The Application of Security to CCSDS Protocols
+- [Cybersecurity Guidelines for Commercial Space Systems](https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_uchu_sangyo/pdf/20230331_1e.pdf)
 
-### NASA
+### Federal Office for Information Security (BSI)
 
-- [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf) - The Application of Security to CCSDS Protocols
+- [IT baseline protection profile for space infrastructures](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Grundschutz/profiles/Profile_Space-Infrastructures.pdf?__blob=publicationFile&v=2) - Minimum Protection for Satellites Covering their Entire Life Cycle
 
-## Books
+### Committee on National Security Systems (CNSS)
 
-- [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf) - The Application of Security to CCSDS Protocols
+- [CNSSP-12](https://www.hsdl.org/?view&did=726945) - National Information Assurance Policy for Space Systems used to Support National Security Missions
 
 ## Papers
 
-- [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf) - The Application of Security to CCSDS Protocols
+- [PCspooF: Compromising the Safety of
+Time-Triggered Ethernet](https://web.eecs.umich.edu/~barisk/public/pcspoof.pdf)
 
-## Conferences
+## Books
 
-- [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf) - The Application of Security to CCSDS Protocols
+- [Cybersecurity for Space](https://link.springer.com/book/10.1007/978-1-4842-5732-6) - The first book focused on the implementation of cybersecurity for space systems :heavy_dollar_sign:
 
 - - -
 
 If you have any question about this opinionated list, do not hesitate to contact me [@Peco602](https://twitter.com/peco602) on Twitter or open an issue on GitHub.
-
