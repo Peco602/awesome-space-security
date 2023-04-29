@@ -1,0 +1,30 @@
+site_name: Awesome Space Security
+site_url: https://awesome-space-security.peco602.com
+site_description: A curated list of awesome Python frameworks, libraries and software
+site_author: Giovanni Pecoraro
+repo_name: peco602/awesome-space-security
+repo_url: https://github.com/peco602/awesome-space-security
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: pink
+extra:
+  social:
+    - type: blog
+      link: https://www.peco602.com
+    - type: github
+      link: https://github.com/peco602
+    - type: twitter
+      link: https://twitter.com/peco602
+    - type: linkedin
+      link: https://www.linkedin.com/in/giovanni-pecoraro-078500155/
+    - icon: paper-plane
+      link: mailto:giovanni1.pecoraro@protonmail.com
+#google_analytics:
+#  - UA-510626-7
+#  - auto
+extra_css:
+    - css/extra.css
+nav:
+  - "Failure Is Not An Option.": "index.md"
