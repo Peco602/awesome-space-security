@@ -18,32 +18,40 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 
 ![Space Security](https://sparta.aerospace.org/theme/images/Threat_Landscape.png)
 
-## Contents
-
-- [Publications](#publications)
-- [Threat Modeling](#threat-modeling)
-    - [BSI](#federal-office-for-information-security-bsi)
-    - [CCSDS](#consultative-committee-for-space-data-systems-ccsds)
-    - [CNSS](#committee-on-national-security-systems-cnss)
-    - [METI](#ministry-of-economy-trade-and-industry-meti)
-    - [NIST](#national-institute-of-standards-and-technology-nist)
-- [Books](#publications)
-- [Conferences](#conferences)
-- [Papers](#papers)
-
+<!--TOC-->
+
+- [Legend](#legend)
+- [Threat Modeling](#threat-modeling)
+- [Standards](#standards)
+  - [Aerospace Industries Association (AIA)](#aerospace-industries-association-aia)
+  - [Consultative Committee for Space Data Systems (CCSDS)](#consultative-committee-for-space-data-systems-ccsds)
+  - [National Institute of Standards and Technology (NIST)](#national-institute-of-standards-and-technology-nist)
+  - [National Aeronautics and Space Administration (NASA)](#national-aeronautics-and-space-administration-nasa)
+  - [Ministry of Economy, Trade and Industry (METI)](#ministry-of-economy-trade-and-industry-meti)
+  - [Federal Office for Information Security (BSI)](#federal-office-for-information-security-bsi)
+  - [Committee on National Security Systems (CNSS)](#committee-on-national-security-systems-cnss)
+- [Papers](#papers)
+- [Books](#books)
+- [Software](#software)
+
+<!--TOC-->
 ---
 
 ## Legend
 
 -   Abandoned :skull:
--   Beta :construction:
+-   Draft :construction:
 -   Monetized :heavy_dollar_sign:
 
 ## Threat Modeling
 
 - [Space Attack Research & Tactic Analysis (SPARTA)](https://sparta.aerospace.org/) - SPARTA is intended to provide unclassified information to space professionals about how spacecraft may be compromised via cyber and traditional counterspace means
 
-## Publications
+## Standards
+
+### Aerospace Industries Association (AIA)
+
+- [NAS9933](https://global.ihs.com/doc_detail.cfm?&csf=AIA&item_s_key=00773721&item_key_date=870400&input_doc_number=NAS9933&input_doc_title=&org_code=AIA%2FNAS) - Critical Security Controls for Effective Capability in Cyber Defense :heavy_dollar_sign:
 
 ### Consultative Committee for Space Data Systems (CCSDS)
 
@@ -71,6 +79,14 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 - [NIST SP 800-161](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-161.pdf) - Supply Chain Risk Management Practices for Federal Information Systems and Organizations
 - [NIST SP 800-53 Rev. 5](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) - Security and Privacy Controls for Information Systems and Organizations
 
+### National Aeronautics and Space Administration (NASA)
+
+- [MRPP.CPS.20201216](https://explorers.larc.nasa.gov/2023APPROBE/pdf_files/NASA13.%20MRPP_CPS_Candidate_Protection_Strategies-v4.5-20201216.pdf) - Candidate Protection Strategies
+- [NASA-STD-1006A](https://standards.nasa.gov/sites/default/files/standards/NASA/A/0/2022-07-15-NASA-STD-1006A-Approved.pdf) - Space System Protection Standard
+- [NASA-STD-8719.13C](https://standards.nasa.gov/sites/default/files/standards/NASA/C-Change-2/0/nasa-std-871913c_with_change_2.docx) - Software Safety Standard
+- [NASA/SP-2010-580](https://ntrs.nasa.gov/api/citations/20120003291/downloads/20120003291.pdf) - NASA System Safety Handbook Volume 1, System Safety Framework and Concepts for Implementation
+- [NASA/SP-2014-612](https://ntrs.nasa.gov/api/citations/20150015500/downloads/20150015500.pdf) - NASA System Safety Handbook Volume 2: System Safety Concepts, Guidelines, and Implementation Examples
+
 ### Ministry of Economy, Trade and Industry (METI)
 
 - [Cybersecurity Guidelines for Commercial Space Systems](https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_uchu_sangyo/pdf/20230331_1e.pdf)
@@ -83,16 +99,23 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 
 - [CNSSP-12](https://www.hsdl.org/?view&did=726945) - National Information Assurance Policy for Space Systems used to Support National Security Missions
 
+
 ## Papers
 
+- [Cybersecurity Protections for Spacecraft: A Threat Based
+Approach](https://aerospace.org/sites/default/files/2022-07/DistroA-TOR-2021-01333-Cybersecurity%20Protections%20for%20Spacecraft--A%20Threat%20Based%20Approach.pdf), April 2021
 - [PCspooF: Compromising the Safety of
-Time-Triggered Ethernet](https://web.eecs.umich.edu/~barisk/public/pcspoof.pdf)
+Time-Triggered Ethernet](https://web.eecs.umich.edu/~barisk/public/pcspoof.pdf), 2023 IEEE Symposium on Security and Privacy (SP)
 
 ## Books
 
 - [Cybersecurity for Space](https://link.springer.com/book/10.1007/978-1-4842-5732-6) - The first book focused on the implementation of cybersecurity for space systems :heavy_dollar_sign:
 
-- - -
+## Software
+
+- [CryptoLib](https://github.com/nasa/CryptoLib) - Provide a software-only solution using the CCSDS Space Data Link Security Protocol - Extended Procedures (SDLS-EP) to secure communications between a spacecraft running the core Flight System (cFS) and a ground station.
+- [CITEF](https://www.rheagroup.com/document/citef-pdf-brochure/) - Next Generation Cyber-Range Services for space missions :heavy_dollar_sign:
+- [QA707](https://www.qascom.it/GNSS-software-simulation.php) - Fully configurable GNSS Software Defined Radio (SDR) simulator for flexible generations of GNSS signals, interferences and authentication schemes up to RF level :heavy_dollar_sign:
+---
 
 If you have any question about this opinionated list, do not hesitate to contact me [@Peco602](https://twitter.com/peco602) on Twitter or open an issue on GitHub.
-
