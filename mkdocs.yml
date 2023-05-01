@@ -21,9 +21,9 @@ extra:
       link: https://www.linkedin.com/in/giovanni-pecoraro-078500155/
     - icon: fontawesome/solid/envelope
       link: mailto:giovanni1.pecoraro@protonmail.com
-#google_analytics:
-#  - UA-510626-7
-#  - auto
+  analytics:
+    provider: google
+    property: G-YPP6CHKDDE
 extra_css:
     - css/extra.css
 nav:
