@@ -5,7 +5,7 @@ sort:
 	python sort.py
 
 toc:
-	md_toc -p -s 1 github README.md
+	md_toc -p -s 1 github -l 2 README.md
 
 copy: sort toc
 	cp $(CURDIR)/README.md $(CURDIR)/docs/index.md

@@ -28,7 +28,6 @@ def convert_markdown_to_json(markdown_content):
     ast = CommonMark.DocParser().parse(markdown_content)
     nested = nester.nest(ast)
     rendered = renderer.stringify_dict(nested)
-    # print(json.dumps(rendered, indent=2))
     return rendered
 
 
@@ -38,6 +37,8 @@ def sort_json(json):
     for k, v in sorted(json.items()):
         if isinstance(v, dict):
             res[k] = sort_json(v)
+        elif isinstance(v, list):
+            res[k] = sorted(v)
         else:
             res[k] = v
     return res
@@ -55,7 +56,7 @@ def to_markdown(json, markdown_content, level=1):
         for v in json:
             to_markdown(v, markdown_content, level=level + 1)
     else:
-        markdown_content.append("\t" * (level - 4) + "- " + json)
+        markdown_content.append("- " + json)
 
 
 def convert_json_to_markdown(json):
@@ -74,11 +75,11 @@ def replace_sorted_markdown(
         # Read the contents of the file
         file_contents = f.read()
 
-    # Use regular expressions to find the text between the tags
-    pattern = re.compile(
-        f"(?<={content_start_tag}).*?(?={content_stop_tag})", re.DOTALL
-    )
-    old_text = re.search(pattern, file_contents).group(0)
+    # # Use regular expressions to find the text between the tags
+    # pattern = re.compile(
+    #     f"(?<={content_start_tag}).*?(?={content_stop_tag})", re.DOTALL
+    # )
+    # old_text = re.search(pattern, file_contents).group(0)
 
     # Replace the old text with the new text
     file_contents = re.sub(
@@ -104,6 +105,9 @@ def main():
 
     # Convert unsorted markdown content to JSON object
     json_content = convert_markdown_to_json(markdown_content=unsorted_markdown_content)
+
+    # Print unsorted JSON object
+    # print(json.dumps(json_content, indent=2))
 
     # Sort JSON object
     sorted_json_content = sort_json(json=json_content)
