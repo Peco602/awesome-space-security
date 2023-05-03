@@ -1,0 +1,822 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A curated list of awesome Python frameworks, libraries and software">
+      
+      
+        <meta name="author" content="Giovanni Pecoraro">
+      
+      
+        <link rel="canonical" href="https://awesome-space-security.peco602.com/">
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.9">
+    
+    
+      
+        <title>Awesome Space Security</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.85bb2934.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.a6bdf11c.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="css/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+  <script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-YPP6CHKDDE"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-YPP6CHKDDE",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-YPP6CHKDDE",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="pink">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#awesome-space-security" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Awesome Space Security" class="md-header__button md-logo" aria-label="Awesome Space Security" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Awesome Space Security
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Failure Is Not An Option
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/peco602/awesome-space-security" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    peco602/awesome-space-security
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Awesome Space Security" class="md-nav__button md-logo" aria-label="Awesome Space Security" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Awesome Space Security
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/peco602/awesome-space-security" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    peco602/awesome-space-security
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Failure Is Not An Option
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Failure Is Not An Option
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    Table of contents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#legend" class="md-nav__link">
+    Legend
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#books" class="md-nav__link">
+    Books
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#directives" class="md-nav__link">
+    Directives
+  </a>
+  
+    <nav class="md-nav" aria-label="Directives">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aerospace-industries-association-aia" class="md-nav__link">
+    Aerospace Industries Association (AIA)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#committee-on-national-security-systems-cnss" class="md-nav__link">
+    Committee on National Security Systems (CNSS)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consultative-committee-for-space-data-systems-ccsds" class="md-nav__link">
+    Consultative Committee for Space Data Systems (CCSDS)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#european-cooperation-for-space-standardization-ecss" class="md-nav__link">
+    European Cooperation for Space Standardization (ECSS)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#federal-office-for-information-security-bsi" class="md-nav__link">
+    Federal Office for Information Security (BSI)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ministry-of-economy-trade-and-industry-meti" class="md-nav__link">
+    Ministry of Economy, Trade and Industry (METI)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#national-aeronautics-and-space-administration-nasa" class="md-nav__link">
+    National Aeronautics and Space Administration (NASA)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#national-institute-of-standards-and-technology-nist" class="md-nav__link">
+    National Institute of Standards and Technology (NIST)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#papers" class="md-nav__link">
+    Papers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reports" class="md-nav__link">
+    Reports
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#talks" class="md-nav__link">
+    Talks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#threat-modeling" class="md-nav__link">
+    Threat Modeling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    Table of contents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#legend" class="md-nav__link">
+    Legend
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#books" class="md-nav__link">
+    Books
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#directives" class="md-nav__link">
+    Directives
+  </a>
+  
+    <nav class="md-nav" aria-label="Directives">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aerospace-industries-association-aia" class="md-nav__link">
+    Aerospace Industries Association (AIA)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#committee-on-national-security-systems-cnss" class="md-nav__link">
+    Committee on National Security Systems (CNSS)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consultative-committee-for-space-data-systems-ccsds" class="md-nav__link">
+    Consultative Committee for Space Data Systems (CCSDS)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#european-cooperation-for-space-standardization-ecss" class="md-nav__link">
+    European Cooperation for Space Standardization (ECSS)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#federal-office-for-information-security-bsi" class="md-nav__link">
+    Federal Office for Information Security (BSI)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ministry-of-economy-trade-and-industry-meti" class="md-nav__link">
+    Ministry of Economy, Trade and Industry (METI)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#national-aeronautics-and-space-administration-nasa" class="md-nav__link">
+    National Aeronautics and Space Administration (NASA)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#national-institute-of-standards-and-technology-nist" class="md-nav__link">
+    National Institute of Standards and Technology (NIST)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#papers" class="md-nav__link">
+    Papers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reports" class="md-nav__link">
+    Reports
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#talks" class="md-nav__link">
+    Talks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#threat-modeling" class="md-nav__link">
+    Threat Modeling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="awesome-space-security">Awesome Space Security <a href="https://github.com/sindresorhus/awesome"><img alt="Awesome" src="https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a></h1>
+<p><a href="https://github.com/Peco602/awesome-space-security/actions/workflows/check-urls.yml"><img alt="Check URLs" src="https://github.com/Peco602/awesome-space-security/actions/workflows/check-urls.yml/badge.svg" /></a>
+<a href="https://github.com/Peco602/awesome-space-security/actions/workflows/gh-pages.yml"><img alt="GitHub Pages" src="https://github.com/Peco602/awesome-space-security/actions/workflows/gh-pages.yml/badge.svg" /></a></p>
+<blockquote>
+<p>A curated list of awesome resources about the security of space systems.</p>
+</blockquote>
+<p>If you would like to contribute, please read <a href="https://github.com/Peco602/awesome-space-security/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a> first.
+It contains a lot of tips and guidelines to help keep things organized.
+Just click <a href="https://github.com/Peco602/awesome-space-security/edit/main/README.md">README.md</a> to submit a pull request.
+If this list is not complete, you can contribute to make it so. Here is a great video tutorial to learn how to <a href="https://egghead.io/lessons/javascript-identifying-how-to-contribute-to-an-open-source-project-on-github">contribute on Github</a>.</p>
+<blockquote>
+<p><strong>Please</strong>, help organize these resources so that they are <em>easy to find</em> and <em>understand</em> for newcomers.</p>
+</blockquote>
+<p><strong><em>If you see a link here that is not (any longer) a good fit, you can fix it by submitting a <a href="https://github.com/Peco602/awesome-space-security/edit/main/README.md">pull request</a> to improve this file. Thank you!</em></strong></p>
+<blockquote>
+<p>Inspired by <a href="https://github.com/vinta/awesome-python">awesome-python</a>.</p>
+</blockquote>
+<p><img alt="Space Security" src="https://sparta.aerospace.org/theme/images/Threat_Landscape.png" /></p>
+<h2 id="table-of-contents">Table of contents</h2>
+<!--TOC-->
+
+<ul>
+<li><a href="#table-of-contents">Table of contents</a></li>
+<li><a href="#legend">Legend</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#directives">Directives</a></li>
+<li><a href="#papers">Papers</a></li>
+<li><a href="#reports">Reports</a></li>
+<li><a href="#talks">Talks</a></li>
+<li><a href="#threat-modeling">Threat Modeling</a></li>
+<li><a href="#tools">Tools</a></li>
+</ul>
+<!--TOC-->
+
+<!--LEGEND-->
+
+<h2 id="legend">Legend</h2>
+<ul>
+<li>Draft <img alt="🚧" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f6a7.svg" title=":construction:" /></li>
+<li>Paid <img alt="💲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f4b2.svg" title=":heavy_dollar_sign:" /></li>
+<li>Abandoned <img alt="💀" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f480.svg" title=":skull:" /></li>
+</ul>
+<!--LEGEND-->
+
+<hr />
+<!--CONTENT-->
+
+<h2 id="books">Books</h2>
+<ul>
+<li><code>2020.03.31</code> <a href="https://www.google.it/books/edition/Cybersecurity_for_Space/31DaDwAAQBAJ?hl=it&amp;gbpv=0">Cybersecurity for Space: Protecting the Final Frontier</a>: The first book focused on the implementation of cybersecurity for space systems <img alt="💲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f4b2.svg" title=":heavy_dollar_sign:" /></li>
+</ul>
+<h2 id="directives">Directives</h2>
+<h3 id="aerospace-industries-association-aia">Aerospace Industries Association (AIA)</h3>
+<ul>
+<li><code>2018.11.29</code> <a href="https://global.ihs.com/doc_detail.cfm?&amp;csf=AIA&amp;item_s_key=00773721&amp;item_key_date=870400&amp;input_doc_number=NAS9933&amp;input_doc_title=&amp;org_code=AIA%2FNAS">NAS9933</a>: Critical Security Controls for Effective Capability in Cyber Defense <img alt="💲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f4b2.svg" title=":heavy_dollar_sign:" /></li>
+</ul>
+<h3 id="committee-on-national-security-systems-cnss">Committee on National Security Systems (CNSS)</h3>
+<ul>
+<li><code>2012.11.28</code> <a href="https://www.hsdl.org/?view&amp;did=726945">CNSSP-12</a>: National Information Assurance Policy for Space Systems used to Support National Security Missions</li>
+</ul>
+<h3 id="consultative-committee-for-space-data-systems-ccsds">Consultative Committee for Space Data Systems (CCSDS)</h3>
+<ul>
+<li><code>2011.11</code> <a href="https://public.ccsds.org/Pubs/350x6g1.pdf">CCSDS 350.6-G-1</a>: Space Missions Key Management Concept</li>
+<li><code>2012.11</code> <a href="https://public.ccsds.org/Pubs/351x0m1.pdf">CCSDS 351.0-M-1</a>: Security Architecture for Space Data Systems</li>
+<li><code>2014.12</code> <a href="https://public.ccsds.org/Pubs/350x9g1.pdf">CCSDS 350.9-G-1</a>: CCSDS Cryptographic Algorithms</li>
+<li><code>2018.06</code> <a href="https://public.ccsds.org/Pubs/350x5g1.pdf">CCSDS 350.5-G-1</a>: Space Data Link Security Protocol - Summary of Concept and Rationale</li>
+<li><code>2018.06</code> <a href="https://public.ccsds.org/Pubs/356xb1.pdf">CCSDS 356.0-B-1</a>: Network Layer Security Adaptation Profile</li>
+<li><code>2018.06</code> <a href="https://public.ccsds.org/Pubs/A13x1y1.pdf">CCSDS A13.1-Y-1</a>: CCSDS Recommended Procedures for Cloud-Based Interoperability Testing</li>
+<li><code>2019.03</code> <a href="https://public.ccsds.org/Pubs/350x0g3.pdf">CCSDS 350.0-G-3</a>: The Application of Security to CCSDS Protocols</li>
+<li><code>2019.04</code> <a href="https://public.ccsds.org/Pubs/350x4g2.pdf">CCSDS 350.4-G-2</a>: CCSDS Guide for Secure System Interconnection</li>
+<li><code>2019.04</code> <a href="https://public.ccsds.org/Pubs/350x7g2.pdf">CCSDS 350.7-G-2</a>: Security Guide for Mission Planners</li>
+<li><code>2019.07</code> <a href="https://public.ccsds.org/Pubs/357x0b1.pdf">CCSDS 357.0-B-1</a>: CCSDS Authentication Credentials</li>
+<li><code>2019.08</code> <a href="https://public.ccsds.org/Pubs/352x0b2.pdf">CCSDS 352.0-B-2</a>: CCSDS Cryptographic Algorithms</li>
+<li><code>2020.02</code> <a href="https://public.ccsds.org/Pubs/350x8m2.pdf">CCSDS 350.8-M-2</a>: Information Security Glossary of Terms</li>
+<li><code>2020.02</code> <a href="https://public.ccsds.org/Pubs/355x1b1.pdf">CCSDS 355.1-B-1</a>: Space Data Link Security Protocol - Extended Procedures</li>
+<li><code>2022.02</code> <a href="https://public.ccsds.org/Pubs/350x1g3.pdf">CCSDS 350.1-G-3</a>: Security Threats against Space Missions</li>
+<li><code>2022.07</code> <a href="https://public.ccsds.org/Pubs/355x0b2.pdf">CCSDS 355.0-B-2</a>: Space Data Link Security Protocol</li>
+</ul>
+<h3 id="european-cooperation-for-space-standardization-ecss">European Cooperation for Space Standardization (ECSS)</h3>
+<ul>
+<li><code>2017.02.15</code> <a href="https://ecss.nl/standard/ecss-q-st-80c-rev-1-software-product-assurance-15-february-2017/">ECSS-Q-ST-80C</a>: Software product assurance</li>
+</ul>
+<h3 id="federal-office-for-information-security-bsi">Federal Office for Information Security (BSI)</h3>
+<ul>
+<li><code>2022.06.30</code> <a href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Grundschutz/profiles/Profile_Space-Infrastructures.pdf?__blob=publicationFile&amp;v=2">IT baseline protection profile for space infrastructures</a>: Minimum Protection for Satellites Covering their Entire Life Cycle</li>
+</ul>
+<h3 id="ministry-of-economy-trade-and-industry-meti">Ministry of Economy, Trade and Industry (METI)</h3>
+<ul>
+<li><code>2023.03</code> <a href="https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_uchu_sangyo/pdf/20230331_1e.pdf">Cybersecurity Guidelines for Commercial Space Systems</a></li>
+</ul>
+<h3 id="national-aeronautics-and-space-administration-nasa">National Aeronautics and Space Administration (NASA)</h3>
+<ul>
+<li><code>2011.11</code> <a href="https://ntrs.nasa.gov/api/citations/20120003291/downloads/20120003291.pdf">NASA/SP-2010-580</a>: NASA System Safety Handbook Volume 1: System Safety Framework and Concepts for Implementation</li>
+<li><code>2014.11</code> <a href="https://ntrs.nasa.gov/api/citations/20150015500/downloads/20150015500.pdf">NASA/SP-2014-612</a>: NASA System Safety Handbook Volume 2: System Safety Concepts, Guidelines, and Implementation Examples</li>
+<li><code>2020.09.04</code> <a href="https://history.nasa.gov/SPD-5.pdf">SPD-5</a>: Cybersecurity Principles for Space Systems</li>
+<li><code>2020.12.16</code> <a href="https://explorers.larc.nasa.gov/2023APPROBE/pdf_files/NASA13.%20MRPP_CPS_Candidate_Protection_Strategies-v4.5-20201216.pdf">MRPP.CPS.20201216</a>: Candidate Protection Strategies</li>
+<li><code>2022.07.15</code> <a href="https://standards.nasa.gov/sites/default/files/standards/NASA/A/0/2022-07-15-NASA-STD-1006A-Approved.pdf">NASA-STD-1006A</a>: Space System Protection Standard</li>
+</ul>
+<h3 id="national-institute-of-standards-and-technology-nist">National Institute of Standards and Technology (NIST)</h3>
+<ul>
+<li><code>2020.09</code> <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf">NIST SP 800-53 Rev. 5</a>: Security and Privacy Controls for Information Systems and Organizations</li>
+<li><code>2021.02</code> <a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8323.pdf">NIST IR 8323</a>: Foundational PNT Profile: Applying the Cybersecurity Framework for the Responsible Use of Positioning, Navigation, and Timing (PNT) Services</li>
+<li><code>2022.02</code> <a href="https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8270-draft2.pdf">NIST IR 8270</a>: Introduction to Cybersecurity for Commercial Satellite Operations <img alt="🚧" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f6a7.svg" title=":construction:" /></li>
+<li><code>2022.05</code> <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1.pdf">NIST SP 800-161r1</a>: Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations</li>
+<li><code>2022.12</code> <a href="https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8401.pdf">NIST IR 8401</a>: Satellite Ground Segment: Applying the Cybersecurity Framework to Satellite Command and Control</li>
+</ul>
+<h2 id="papers">Papers</h2>
+<ul>
+<li><code>2016.04.30</code> <a href="https://www.cscjournals.org/manuscript/Journals/IJCSS/Volume10/Issue1/IJCSS-1200.pdf">Satellite Network Hacking &amp; Security Analysis</a>, International Journal of Computer Science and Security (IJCSS)</li>
+<li><code>2018.12</code> <a href="https://2ea998fc-9f95-482a-87f8-dd57460966a8.filesusr.com/ugd/e741d3_daa22cd1e5234b8f9139fa9c7406be29.pdf">Cybersecurity Principles for Space Systems</a>, Journal of Aerospace Computing, Information and Communication</li>
+<li><code>2023.05.26</code> <a href="https://web.eecs.umich.edu/~barisk/public/pcspoof.pdf">PCspooF: Compromising the Safety of Time-Triggered Ethernet</a>, 2023 IEEE Symposium on Security and Privacy</li>
+</ul>
+<h2 id="reports">Reports</h2>
+<ul>
+<li><code>2019.11</code> <a href="https://aerospace.org/sites/default/files/2019-11/Bailey_DefendingSpacecraft_11052019.pdf">Defending Spacecraft in the Cyber Domain</a></li>
+<li><code>2020.10</code> <a href="https://aerospace.org/sites/default/files/2020-10/Bailey%20SPD5_20201010%20V2_formatted.pdf">Establishing Space Cybersecurity Policy, Standards, &amp; Risk Management Practices</a></li>
+<li><code>2021.04.29</code> <a href="https://aerospace.org/sites/default/files/2022-07/DistroA-TOR-2021-01333-Cybersecurity%20Protections%20for%20Spacecraft--A%20Threat%20Based%20Approach.pdf">Cybersecurity Protections for Spacecraft: A Threat Based Approach</a></li>
+<li><code>2023.04</code> <a href="https://csis-website-prod.s3.amazonaws.com/s3fs-public/2023-04/230414_Bingen_Space_Assessment.pdf?VersionId=oMsUS8MupLbZi3BISPrqPCKd5jDejZnJ">Space Threat Assessment: A Report of the CSIS Aerospace Security Project</a></li>
+</ul>
+<h2 id="talks">Talks</h2>
+<ul>
+<li><code>2009.02.18</code> <a href="https://www.youtube.com/watch?v=PyXZX63etog">Satellite Hacking for Fun and Profit</a>, Black Hat DC 2009</li>
+<li><code>2012.10.31</code> <a href="https://www.youtube.com/watch?v=xIsG8GpB67A">Satellite Hacking: An Introduction</a>, DEF CON Switzerland 2012</li>
+<li><code>2014.08.06</code> <a href="https://www.youtube.com/watch?v=YeKswEamOl4">SATCOM Terminals: Hacking by Air, Sea, and Land</a>, Black Hat USA 2014</li>
+<li><code>2015.08.05</code> <a href="https://www.youtube.com/watch?v=arPqhHQ-R4o">Spread Spectrum Satcom Hacking Attacking The Globalstar Simplex Data Service</a>, Black Hat USA 2015</li>
+<li><code>2016.07.24</code> <a href="https://www.youtube.com/watch?v=cvKaC4pNvck">Iridium Satellite Hacking</a>, HOPE XI 2016</li>
+<li><code>2016.12.27</code> <a href="https://www.youtube.com/watch?v=TCoSRx7DpGY">Reverse Engineering Outernet</a>, 33C3</li>
+<li><code>2017.01.27</code> <a href="https://www.youtube.com/watch?v=U1WyBP4lKZk">Reverse Engineering Satellite Based IP Content Distribution</a>, ReCon Brussels 2017</li>
+<li><code>2018.10.12</code> <a href="https://www.youtube.com/watch?v=mT7dXJ_ob8k">Hacking Yachts Remotely via Satcom or Maritime Internet Router</a></li>
+<li><code>2020.02</code> <a href="https://www.youtube.com/watch?v=Duxr1yRKRoU">GPS As An Attack Vector</a>, S4 Conference 2020</li>
+<li><code>2020.08.05</code> <a href="https://www.youtube.com/watch?v=d5Sbwlu6f8o">Whispers Among the Stars: A Practical Look at Perpetrating Satellite Eavesdropping Attacks</a>, Black Hat USA 2020</li>
+<li><code>2020.08.07</code> <a href="https://www.youtube.com/watch?v=b8QWNiqTx1c">Exploiting Spacecraft</a>, DEF CON 28 Aerospace Village</li>
+<li><code>2021.08.06</code> <a href="https://www.youtube.com/watch?v=WvKtdXSRvhM">Unboxing the Spacecraft Software BlackBox Hunting for Vulnerabilities</a>, DEF CON 29 Aerospace Village</li>
+<li><code>2022.08.13</code> <a href="https://www.youtube.com/watch?v=t_efCpd2PbM">Hunting for Spacecraft Zero Days using Digital Twins</a>, DEF CON 30 Aerospace </li>
+<li><code>2022.09.10</code> <a href="https://www.youtube.com/watch?v=qAiqKHG6uYM&amp;t=17389s">Satellite Communications Reverse Engineering</a>, GambiConf EU 2022</li>
+</ul>
+<h2 id="threat-modeling">Threat Modeling</h2>
+<ul>
+<li><a href="https://attack.mitre.org/matrices/ics/">MITRE ATT&amp;CK® Matrix for ICS</a>: Knowledge base of adversary tactics and techniques against Industrial Control Systems (ICS) based on real-world observations</li>
+<li><a href="https://sparta.aerospace.org/">Space Attack Research &amp; Tactic Analysis (SPARTA)</a>: Knowledge base of unclassified information to space professionals about how spacecraft may be compromised via cyber and traditional counterspace means</li>
+</ul>
+<h2 id="tools">Tools</h2>
+<ul>
+<li><a href="https://www.rheagroup.com/document/citef-pdf-brochure/">CITEF</a>: Next Generation Cyber-Range Services for space missions <img alt="💲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f4b2.svg" title=":heavy_dollar_sign:" /></li>
+<li><a href="https://github.com/nasa/CryptoLib">CryptoLib</a>: Provide a software-only solution using the CCSDS Space Data Link Security Protocol - Extended Procedures (SDLS-EP) to secure communications between a spacecraft running the core Flight System (cFS) and a ground station.</li>
+<li><a href="https://www.qascom.it/GNSS-software-simulation.php">QA707</a>: Fully configurable GNSS Software Defined Radio (SDR) simulator for flexible generations of GNSS signals, interferences and authentication schemes up to RF level <img alt="💲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f4b2.svg" title=":heavy_dollar_sign:" /></li>
+<li><a href="https://www.teletel.eu/products-overview/">iSAFT</a>: Advanced solutions for the validation of satellite/spacecraft on-board data networks including SpaceWire, SpaceFibre, MIL-STD-1553, Time-Triggered Ethernet, CAN/CANOpen, WizardLink and others <img alt="💲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f4b2.svg" title=":heavy_dollar_sign:" /></li>
+</ul>
+<!--CONTENT-->
+
+<hr />
+<p>If you have any question about this opinionated list, do not hesitate to contact me <a href="https://twitter.com/peco602">@Peco602</a> on Twitter or open an issue on GitHub.</p>
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.peco602.com" target="_blank" rel="noopener" title="www.peco602.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M192 32c0 17.7 14.3 32 32 32 123.7 0 224 100.3 224 224 0 17.7 14.3 32 32 32s32-14.3 32-32C512 128.9 383.1 0 224 0c-17.7 0-32 14.3-32 32zm0 96c0 17.7 14.3 32 32 32 70.7 0 128 57.3 128 128 0 17.7 14.3 32 32 32s32-14.3 32-32c0-106-86-192-192-192-17.7 0-32 14.3-32 32zm-96 16c0-26.5-21.5-48-48-48S0 117.5 0 144v224c0 79.5 64.5 144 144 144s144-64.5 144-144-64.5-144-144-144h-16v96h16c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48V144z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/peco602" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/peco602" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/giovanni-pecoraro-078500155/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:giovanni1.pecoraro@protonmail.com" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48H48zM0 176v208c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V176L294.4 339.2a63.9 63.9 0 0 1-76.8 0L0 176z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.fac441b0.min.js"></script>
+      
+    
+  </body>
+</html>
