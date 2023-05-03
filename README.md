@@ -27,10 +27,10 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 - [Books](#books)
 - [Directives](#directives)
 - [Papers](#papers)
-- [Presentations](#presentations)
 - [Reports](#reports)
-- [Software](#software)
+- [Talks](#talks)
 - [Threat Modeling](#threat-modeling)
+- [Tools](#tools)
 
 <!--TOC-->
 
@@ -104,24 +104,37 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 - `2018.12` [Cybersecurity Principles for Space Systems](https://2ea998fc-9f95-482a-87f8-dd57460966a8.filesusr.com/ugd/e741d3_daa22cd1e5234b8f9139fa9c7406be29.pdf), Journal of Aerospace Computing, Information and Communication
 - `2023.05.26` [PCspooF: Compromising the Safety of Time-Triggered Ethernet](https://web.eecs.umich.edu/~barisk/public/pcspoof.pdf), 2023 IEEE Symposium on Security and Privacy
 
-## Presentations
-- `2020.08.05` [Whispers Among the Stars: A Practical Look at Perpetrating Satellite Eavesdropping Attacks](https://www.youtube.com/watch?v=d5Sbwlu6f8o), Black Hat USA 2020
-- `2020.08.07` [Exploiting Spacecraft](https://www.youtube.com/watch?v=b8QWNiqTx1c), DEF CON 2020 Aerospace Village
-
 ## Reports
 - `2019.11` [Defending Spacecraft in the Cyber Domain](https://aerospace.org/sites/default/files/2019-11/Bailey_DefendingSpacecraft_11052019.pdf)
+- `2020.10` [Establishing Space Cybersecurity Policy, Standards, & Risk Management Practices](https://aerospace.org/sites/default/files/2020-10/Bailey%20SPD5_20201010%20V2_formatted.pdf)
 - `2021.04.29` [Cybersecurity Protections for Spacecraft: A Threat Based Approach](https://aerospace.org/sites/default/files/2022-07/DistroA-TOR-2021-01333-Cybersecurity%20Protections%20for%20Spacecraft--A%20Threat%20Based%20Approach.pdf)
 - `2023.04` [Space Threat Assessment: A Report of the CSIS Aerospace Security Project](https://csis-website-prod.s3.amazonaws.com/s3fs-public/2023-04/230414_Bingen_Space_Assessment.pdf?VersionId=oMsUS8MupLbZi3BISPrqPCKd5jDejZnJ)
 
-## Software
-- [CITEF](https://www.rheagroup.com/document/citef-pdf-brochure/): Next Generation Cyber-Range Services for space missions :heavy_dollar_sign:
-- [CryptoLib](https://github.com/nasa/CryptoLib): Provide a software-only solution using the CCSDS Space Data Link Security Protocol - Extended Procedures (SDLS-EP) to secure communications between a spacecraft running the core Flight System (cFS) and a ground station.
-- [QA707](https://www.qascom.it/GNSS-software-simulation.php): Fully configurable GNSS Software Defined Radio (SDR) simulator for flexible generations of GNSS signals, interferences and authentication schemes up to RF level :heavy_dollar_sign:
-- [iSAFT](https://www.teletel.eu/products-overview/): Advanced solutions for the validation of satellite/spacecraft on-board data networks including SpaceWire, SpaceFibre, MIL-STD-1553, Time-Triggered Ethernet, CAN/CANOpen, WizardLink and others :heavy_dollar_sign:
+## Talks
+- `2009.02.18` [Satellite Hacking for Fun and Profit](https://www.youtube.com/watch?v=PyXZX63etog), Black Hat DC 2009
+- `2012.10.31` [Satellite Hacking: An Introduction](https://www.youtube.com/watch?v=xIsG8GpB67A), DEF CON Switzerland 2012
+- `2014.08.06` [SATCOM Terminals: Hacking by Air, Sea, and Land](https://www.youtube.com/watch?v=YeKswEamOl4), Black Hat USA 2014
+- `2015.08.05` [Spread Spectrum Satcom Hacking Attacking The Globalstar Simplex Data Service](https://www.youtube.com/watch?v=arPqhHQ-R4o), Black Hat USA 2015
+- `2016.07.24` [Iridium Satellite Hacking](https://www.youtube.com/watch?v=cvKaC4pNvck), HOPE XI 2016
+- `2016.12.27` [Reverse Engineering Outernet](https://www.youtube.com/watch?v=TCoSRx7DpGY), 33C3
+- `2017.01.27` [Reverse Engineering Satellite Based IP Content Distribution](https://www.youtube.com/watch?v=U1WyBP4lKZk), ReCon Brussels 2017
+- `2018.10.12` [Hacking Yachts Remotely via Satcom or Maritime Internet Router](https://www.youtube.com/watch?v=mT7dXJ_ob8k)
+- `2020.02` [GPS As An Attack Vector](https://www.youtube.com/watch?v=Duxr1yRKRoU), S4 Conference 2020
+- `2020.08.05` [Whispers Among the Stars: A Practical Look at Perpetrating Satellite Eavesdropping Attacks](https://www.youtube.com/watch?v=d5Sbwlu6f8o), Black Hat USA 2020
+- `2020.08.07` [Exploiting Spacecraft](https://www.youtube.com/watch?v=b8QWNiqTx1c), DEF CON 28 Aerospace Village
+- `2021.08.06` [Unboxing the Spacecraft Software BlackBox Hunting for Vulnerabilities](https://www.youtube.com/watch?v=WvKtdXSRvhM), DEF CON 29 Aerospace Village
+- `2022.08.13` [Hunting for Spacecraft Zero Days using Digital Twins](https://www.youtube.com/watch?v=t_efCpd2PbM), DEF CON 30 Aerospace 
+- `2022.09.10` [Satellite Communications Reverse Engineering](https://www.youtube.com/watch?v=qAiqKHG6uYM&t=17389s), GambiConf EU 2022
 
 ## Threat Modeling
 - [MITRE ATT&CK® Matrix for ICS](https://attack.mitre.org/matrices/ics/): Knowledge base of adversary tactics and techniques against Industrial Control Systems (ICS) based on real-world observations
 - [Space Attack Research & Tactic Analysis (SPARTA)](https://sparta.aerospace.org/): Knowledge base of unclassified information to space professionals about how spacecraft may be compromised via cyber and traditional counterspace means
+
+## Tools
+- [CITEF](https://www.rheagroup.com/document/citef-pdf-brochure/): Next Generation Cyber-Range Services for space missions :heavy_dollar_sign:
+- [CryptoLib](https://github.com/nasa/CryptoLib): Provide a software-only solution using the CCSDS Space Data Link Security Protocol - Extended Procedures (SDLS-EP) to secure communications between a spacecraft running the core Flight System (cFS) and a ground station.
+- [QA707](https://www.qascom.it/GNSS-software-simulation.php): Fully configurable GNSS Software Defined Radio (SDR) simulator for flexible generations of GNSS signals, interferences and authentication schemes up to RF level :heavy_dollar_sign:
+- [iSAFT](https://www.teletel.eu/products-overview/): Advanced solutions for the validation of satellite/spacecraft on-board data networks including SpaceWire, SpaceFibre, MIL-STD-1553, Time-Triggered Ethernet, CAN/CANOpen, WizardLink and others :heavy_dollar_sign:
 <!--CONTENT-->
 
 ---
