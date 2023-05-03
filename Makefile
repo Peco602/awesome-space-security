@@ -1,5 +1,10 @@
 install:
+	sudo apt install ruby
+	sudo gem install awesome_bot
 	pip install -r requirements.txt
+
+check_urls:
+	awesome_bot README.md --allow-ssl -a 302,429 -w xbmc/xbmc
 
 sort:
 	python sort.py
