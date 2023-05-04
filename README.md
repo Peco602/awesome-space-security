@@ -145,6 +145,7 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 ## Threat Modeling
 - [MITRE ATT&CK® Matrix for ICS](https://attack.mitre.org/matrices/ics/): Knowledge base of adversary tactics and techniques against Industrial Control Systems (ICS) based on real-world observations
 - [Space Attack Research & Tactic Analysis (SPARTA)](https://sparta.aerospace.org/): Knowledge base of unclassified information to space professionals about how spacecraft may be compromised via cyber and traditional counterspace means
+- [Space Attacks and Countermeasures Engineering Shield (Spacesheild)](https://spaceshield.esa.int/): A MITRE ATT&CK® like knowledge-base framework for Space Systems. It is a collection of adversary tactics and techniques, and a security tool applicable in the Space environment to strengthen the security level. 
 
 ## Tools
 - [CITEF](https://www.rheagroup.com/document/citef-pdf-brochure/): Next Generation Cyber-Range Services for space missions :heavy_dollar_sign:
