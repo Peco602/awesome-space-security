@@ -6,6 +6,8 @@ repo_name: peco602/awesome-space-security
 repo_url: https://github.com/peco602/awesome-space-security
 theme:
   name: material
+  logo: img/satellite.png
+  favicon: img/satellite.png
   palette:
     primary: blue
     accent: pink

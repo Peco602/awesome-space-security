@@ -112,7 +112,8 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 ## Papers
 - `2016.04.30` [Satellite Network Hacking & Security Analysis](https://www.cscjournals.org/manuscript/Journals/IJCSS/Volume10/Issue1/IJCSS-1200.pdf), International Journal of Computer Science and Security (IJCSS)
 - `2018.12` [Cybersecurity Principles for Space Systems](https://2ea998fc-9f95-482a-87f8-dd57460966a8.filesusr.com/ugd/e741d3_daa22cd1e5234b8f9139fa9c7406be29.pdf), Journal of Aerospace Computing, Information and Communication
-- `2023.05.26` [PCspooF: Compromising the Safety of Time-Triggered Ethernet](https://web.eecs.umich.edu/~barisk/public/pcspoof.pdf), 2023 IEEE Symposium on Security and Privacy
+- `2021.07` [CubeSat Security Attack Tree Analysis](https://www.researchgate.net/profile/Gregory-Falco/publication/353909968_CubeSat_Security_Attack_Tree_Analysis/links/611859e90c2bfa282a463b66/CubeSat-Security-Attack-Tree-Analysis.pdf), 8th IEEE International Conference on Space Mission Challenges for Information Technology (SMC-IT 2021)
+- `2023.05.26` [PCspooF: Compromising the Safety of Time-Triggered Ethernet](https://web.eecs.umich.edu/~barisk/public/pcspoof.pdf), IEEE Symposium on Security and Privacy 2023
 
 ## Reports
 - `2019.11` [Defending Spacecraft in the Cyber Domain](https://aerospace.org/sites/default/files/2019-11/Bailey_DefendingSpacecraft_11052019.pdf)
@@ -127,6 +128,9 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 - `2014.08.06` [SATCOM Terminals: Hacking by Air, Sea, and Land](https://www.youtube.com/watch?v=YeKswEamOl4), Black Hat USA 2014
 - `2015.08.05` [Spread Spectrum Satcom Hacking Attacking The Globalstar Simplex Data Service](https://www.youtube.com/watch?v=arPqhHQ-R4o), Black Hat USA 2015
 - `2020.08.05` [Whispers Among the Stars: A Practical Look at Perpetrating Satellite Eavesdropping Attacks](https://www.youtube.com/watch?v=d5Sbwlu6f8o), Black Hat USA 2020
+
+### CYSAT
+- `2022.04.07` [Cyber range for space a way to optimize the cybersecurity process](https://www.youtube.com/watch?v=Kfwiw-2TkMw), CYSAT 2022
 
 ### DEF CON
 - `2012.10.31` [Satellite Hacking: An Introduction](https://www.youtube.com/watch?v=xIsG8GpB67A), DEF CON Switzerland 2012
