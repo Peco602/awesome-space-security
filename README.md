@@ -1,5 +1,6 @@
-# Awesome Space Security [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Space Security
 
+[![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Check URLs](https://github.com/Peco602/awesome-space-security/actions/workflows/check-urls.yml/badge.svg)](https://github.com/Peco602/awesome-space-security/actions/workflows/check-urls.yml)
 [![GitHub Pages](https://github.com/Peco602/awesome-space-security/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/Peco602/awesome-space-security/actions/workflows/gh-pages.yml)
 
@@ -76,8 +77,14 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 - `2022.02` [CCSDS 350.1-G-3](https://public.ccsds.org/Pubs/350x1g3.pdf): Security Threats against Space Missions
 - `2022.07` [CCSDS 355.0-B-2](https://public.ccsds.org/Pubs/355x0b2.pdf): Space Data Link Security Protocol
 
-### European Cooperation for Space Standardization (ECSS)
+### European Space Agency (ESA)
+- `1994.10` [ESA PSS-05-0 Issue 2](http://microelectronics.esa.int/vhdl/pss/PSS-05-0.pdf): ESA software engineering standards
+- `2000.03.30` [BSSC(2000)1 Issue 1](http://everyspec.com/ESA/download.php?spec=BSSC_2000-1_I1_2000.029384.pdf): ESA C and C++ Coding Standards
+- `2009.03.06` [ECSS-E-ST-40C](https://ecss.nl/standard/ecss-e-st-40c-software-general-requirements/): Software
+- `2013.12.11` [ECSS-E-HB-40A](https://ecss.nl/hbstms/ecss-e-hb-40a-software-engineering-handbook-11-december-2013/): Software engineering handbook
 - `2017.02.15` [ECSS-Q-ST-80C](https://ecss.nl/standard/ecss-q-st-80c-rev-1-software-product-assurance-15-february-2017/): Software product assurance
+- `2017.11.22` [ECSS-Q-HB-80-03A Rev.1](https://ecss.nl/hbstms/20347/): Software dependability and safety
+- `2022.05.31` [ECSS-E-ST-10-03C Rev.1](https://ecss.nl/standard/ecss-e-st-10-03c-rev-1-testing-31-may-2022/): Testing
 
 ### Federal Office for Information Security (BSI)
 - `2022.06.30` [IT baseline protection profile for space infrastructures](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Grundschutz/profiles/Profile_Space-Infrastructures.pdf?__blob=publicationFile&v=2): Minimum Protection for Satellites Covering their Entire Life Cycle
@@ -93,6 +100,9 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 - `2022.07.15` [NASA-STD-1006A](https://standards.nasa.gov/sites/default/files/standards/NASA/A/0/2022-07-15-NASA-STD-1006A-Approved.pdf): Space System Protection Standard
 
 ### National Institute of Standards and Technology (NIST)
+- `1994.08.01` [SEL-94-003](https://ntrs.nasa.gov/api/citations/19950022400/downloads/19950022400.pdf): NASA C Coding Standard and Style Guide
+- `2004.03.31` [NASA-GB-8719.13](https://s3vi.ndc.nasa.gov/ssri-kb/static/resources/nasa-gb-8719.13.pdf): NASA Software Safety Guidebook
+- `2005.05.24` [SEL-94-003](https://ntrs.nasa.gov/api/citations/20080039927/downloads/20080039927.pdf): NASA C++ Coding Standard and Style Guide
 - `2020.09` [NIST SP 800-53 Rev. 5](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf): Security and Privacy Controls for Information Systems and Organizations
 - `2021.02` [NIST IR 8323](https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8323.pdf): Foundational PNT Profile: Applying the Cybersecurity Framework for the Responsible Use of Positioning, Navigation, and Timing (PNT) Services
 - `2022.02` [NIST IR 8270](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8270-draft2.pdf): Introduction to Cybersecurity for Commercial Satellite Operations :construction:
@@ -111,19 +121,25 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 - `2023.04` [Space Threat Assessment: A Report of the CSIS Aerospace Security Project](https://csis-website-prod.s3.amazonaws.com/s3fs-public/2023-04/230414_Bingen_Space_Assessment.pdf?VersionId=oMsUS8MupLbZi3BISPrqPCKd5jDejZnJ)
 
 ## Talks
+
+### Black Hat
 - `2009.02.18` [Satellite Hacking for Fun and Profit](https://www.youtube.com/watch?v=PyXZX63etog), Black Hat DC 2009
-- `2012.10.31` [Satellite Hacking: An Introduction](https://www.youtube.com/watch?v=xIsG8GpB67A), DEF CON Switzerland 2012
 - `2014.08.06` [SATCOM Terminals: Hacking by Air, Sea, and Land](https://www.youtube.com/watch?v=YeKswEamOl4), Black Hat USA 2014
 - `2015.08.05` [Spread Spectrum Satcom Hacking Attacking The Globalstar Simplex Data Service](https://www.youtube.com/watch?v=arPqhHQ-R4o), Black Hat USA 2015
+- `2020.08.05` [Whispers Among the Stars: A Practical Look at Perpetrating Satellite Eavesdropping Attacks](https://www.youtube.com/watch?v=d5Sbwlu6f8o), Black Hat USA 2020
+
+### DEF CON
+- `2012.10.31` [Satellite Hacking: An Introduction](https://www.youtube.com/watch?v=xIsG8GpB67A), DEF CON Switzerland 2012
+- `2020.08.07` [Exploiting Spacecraft](https://www.youtube.com/watch?v=b8QWNiqTx1c), DEF CON 28 Aerospace Village
+- `2021.08.06` [Unboxing the Spacecraft Software BlackBox Hunting for Vulnerabilities](https://www.youtube.com/watch?v=WvKtdXSRvhM), DEF CON 29 Aerospace Village
+- `2022.08.13` [Hunting for Spacecraft Zero Days using Digital Twins](https://www.youtube.com/watch?v=t_efCpd2PbM), DEF CON 30 Aerospace Village
+
+### Other conferences
 - `2016.07.24` [Iridium Satellite Hacking](https://www.youtube.com/watch?v=cvKaC4pNvck), HOPE XI 2016
 - `2016.12.27` [Reverse Engineering Outernet](https://www.youtube.com/watch?v=TCoSRx7DpGY), 33C3
 - `2017.01.27` [Reverse Engineering Satellite Based IP Content Distribution](https://www.youtube.com/watch?v=U1WyBP4lKZk), ReCon Brussels 2017
 - `2018.10.12` [Hacking Yachts Remotely via Satcom or Maritime Internet Router](https://www.youtube.com/watch?v=mT7dXJ_ob8k)
 - `2020.02` [GPS As An Attack Vector](https://www.youtube.com/watch?v=Duxr1yRKRoU), S4 Conference 2020
-- `2020.08.05` [Whispers Among the Stars: A Practical Look at Perpetrating Satellite Eavesdropping Attacks](https://www.youtube.com/watch?v=d5Sbwlu6f8o), Black Hat USA 2020
-- `2020.08.07` [Exploiting Spacecraft](https://www.youtube.com/watch?v=b8QWNiqTx1c), DEF CON 28 Aerospace Village
-- `2021.08.06` [Unboxing the Spacecraft Software BlackBox Hunting for Vulnerabilities](https://www.youtube.com/watch?v=WvKtdXSRvhM), DEF CON 29 Aerospace Village
-- `2022.08.13` [Hunting for Spacecraft Zero Days using Digital Twins](https://www.youtube.com/watch?v=t_efCpd2PbM), DEF CON 30 Aerospace 
 - `2022.09.10` [Satellite Communications Reverse Engineering](https://www.youtube.com/watch?v=qAiqKHG6uYM&t=17389s), GambiConf EU 2022
 
 ## Threat Modeling
