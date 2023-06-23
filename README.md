@@ -112,7 +112,7 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 ## Papers
 - `2016.04.30` [Satellite Network Hacking & Security Analysis](https://www.cscjournals.org/manuscript/Journals/IJCSS/Volume10/Issue1/IJCSS-1200.pdf), International Journal of Computer Science and Security (IJCSS)
 - `2018.12` [Cybersecurity Principles for Space Systems](https://2ea998fc-9f95-482a-87f8-dd57460966a8.filesusr.com/ugd/e741d3_daa22cd1e5234b8f9139fa9c7406be29.pdf), Journal of Aerospace Computing, Information and Communication
-- `2021.07` [CubeSat Security Attack Tree Analysis](https://ieeexplore.ieee.org/document/9697673), 8th IEEE International Conference on Space Mission Challenges for Information Technology (SMC-IT 2021)
+- `2021.07` [CubeSat Security Attack Tree Analysis](https://www.computer.org/csdl/proceedings-article/smc-it/2021/856000a068/1ANLcp3WNag), 8th IEEE International Conference on Space Mission Challenges for Information Technology (SMC-IT 2021)
 - `2023.05.26` [PCspooF: Compromising the Safety of Time-Triggered Ethernet](https://web.eecs.umich.edu/~barisk/public/pcspoof.pdf), IEEE Symposium on Security and Privacy 2023
 
 ## Reports
