@@ -1,4 +1,4 @@
 mkdocs==1.4.3
-mkdocs-material==9.1.19
+mkdocs-material==9.1.20
 md-toc==8.1.9
 markdown-to-json==2.1.0
