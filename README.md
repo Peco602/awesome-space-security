@@ -88,6 +88,7 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 
 ### Federal Office for Information Security (BSI)
 - `2022.06.30` [IT baseline protection profile for space infrastructures](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Grundschutz/profiles/Profile_Space-Infrastructures.pdf?__blob=publicationFile&v=2): Minimum Protection for Satellites Covering their Entire Life Cycle
+- `2023.07.28` [Technical Guideline BSI TR-03184](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03184/BSI-TR-03184_part1.pdf?__blob=publicationFile&v=2): Information Security for Space Systems - Part 1: Space segment
 
 ### Ministry of Economy, Trade and Industry (METI)
 - `2023.03` [Cybersecurity Guidelines for Commercial Space Systems](https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_uchu_sangyo/pdf/20230331_1e.pdf)
