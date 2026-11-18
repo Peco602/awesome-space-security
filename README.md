@@ -55,16 +55,14 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 ## Directives
 
 ### Aerospace Industries Association (AIA)
-- `2018.11.29` [NAS9933](https://global.ihs.com/doc_detail.cfm?&csf=AIA&item_s_key=00773721&item_key_date=870400&input_doc_number=NAS9933&input_doc_title=&org_code=AIA%2FNAS): Critical Security Controls for Effective Capability in Cyber Defense :heavy_dollar_sign:
+- `2018.11.29` [NAS9933](https://store.accuristech.com/standards/aia-nas9933?product_id=2603292): Critical Security Controls for Effective Capability in Cyber Defense :heavy_dollar_sign:
 
 ### Committee on National Security Systems (CNSS)
-- `2012.11.28` [CNSSP-12](https://www.hsdl.org/?view&did=726945): National Information Assurance Policy for Space Systems used to Support National Security Missions
+- `2012.11.28` [CNSSP-12](https://webarchive.library.unt.edu/web/20130213205632/http:/www.cnss.gov/Assets/pdf/CNSSP_12_Final.pdf): National Information Assurance Policy for Space Systems used to Support National Security Missions
 
 ### Consultative Committee for Space Data Systems (CCSDS)
 - `2011.11` [CCSDS 350.6-G-1](https://public.ccsds.org/Pubs/350x6g1.pdf): Space Missions Key Management Concept
 - `2012.11` [CCSDS 351.0-M-1](https://public.ccsds.org/Pubs/351x0m1.pdf): Security Architecture for Space Data Systems
-- `2014.12` [CCSDS 350.9-G-1](https://public.ccsds.org/Pubs/350x9g1.pdf): CCSDS Cryptographic Algorithms
-- `2018.06` [CCSDS 350.5-G-1](https://public.ccsds.org/Pubs/350x5g1.pdf): Space Data Link Security Protocol - Summary of Concept and Rationale
 - `2018.06` [CCSDS 356.0-B-1](https://public.ccsds.org/Pubs/356xb1.pdf): Network Layer Security Adaptation Profile
 - `2018.06` [CCSDS A13.1-Y-1](https://public.ccsds.org/Pubs/A13x1y1.pdf): CCSDS Recommended Procedures for Cloud-Based Interoperability Testing
 - `2019.03` [CCSDS 350.0-G-3](https://public.ccsds.org/Pubs/350x0g3.pdf): The Application of Security to CCSDS Protocols
@@ -72,10 +70,12 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 - `2019.04` [CCSDS 350.7-G-2](https://public.ccsds.org/Pubs/350x7g2.pdf): Security Guide for Mission Planners
 - `2019.07` [CCSDS 357.0-B-1](https://public.ccsds.org/Pubs/357x0b1.pdf): CCSDS Authentication Credentials
 - `2019.08` [CCSDS 352.0-B-2](https://public.ccsds.org/Pubs/352x0b2.pdf): CCSDS Cryptographic Algorithms
-- `2020.02` [CCSDS 350.8-M-2](https://public.ccsds.org/Pubs/350x8m2.pdf): Information Security Glossary of Terms
 - `2020.02` [CCSDS 355.1-B-1](https://public.ccsds.org/Pubs/355x1b1.pdf): Space Data Link Security Protocol - Extended Procedures
 - `2022.02` [CCSDS 350.1-G-3](https://public.ccsds.org/Pubs/350x1g3.pdf): Security Threats against Space Missions
 - `2022.07` [CCSDS 355.0-B-2](https://public.ccsds.org/Pubs/355x0b2.pdf): Space Data Link Security Protocol
+- `2023.07` [CCSDS 350.9-G-2](https://public.ccsds.org/Pubs/350x9g2.pdf): CCSDS Cryptographic Algorithms
+- `2024.01` [CCSDS 350.5-G-2](https://public.ccsds.org/Pubs/350x5g2.pdf): Space Data Link Security Protocol - Summary of Concept and Rationale
+- `2024.02` [CCSDS 350.8-M-3](https://ccsds.org/Pubs/350x8m3.pdf): Information Security Glossary of Terms
 
 ### European Space Agency (ESA)
 - `1994.10` [ESA PSS-05-0 Issue 2](http://microelectronics.esa.int/vhdl/pss/PSS-05-0.pdf): ESA software engineering standards
@@ -96,7 +96,7 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 ### National Aeronautics and Space Administration (NASA)
 - `2011.11` [NASA/SP-2010-580](https://ntrs.nasa.gov/api/citations/20120003291/downloads/20120003291.pdf): NASA System Safety Handbook Volume 1: System Safety Framework and Concepts for Implementation
 - `2014.11` [NASA/SP-2014-612](https://ntrs.nasa.gov/api/citations/20150015500/downloads/20150015500.pdf): NASA System Safety Handbook Volume 2: System Safety Concepts, Guidelines, and Implementation Examples
-- `2020.09.04` [SPD-5](https://history.nasa.gov/SPD-5.pdf): Cybersecurity Principles for Space Systems
+- `2020.09.04` [SPD-5](https://www.govinfo.gov/content/pkg/DCPD-202000653/pdf/DCPD-202000653.pdf): Cybersecurity Principles for Space Systems
 - `2020.12.16` [MRPP.CPS.20201216](https://explorers.larc.nasa.gov/2023APPROBE/pdf_files/NASA13.%20MRPP_CPS_Candidate_Protection_Strategies-v4.5-20201216.pdf): Candidate Protection Strategies
 - `2022.07.15` [NASA-STD-1006A](https://standards.nasa.gov/sites/default/files/standards/NASA/A/0/2022-07-15-NASA-STD-1006A-Approved.pdf): Space System Protection Standard
 
@@ -105,16 +105,16 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 - `2004.03.31` [NASA-GB-8719.13](https://s3vi.ndc.nasa.gov/ssri-kb/static/resources/nasa-gb-8719.13.pdf): NASA Software Safety Guidebook
 - `2005.05.24` [SEL-94-003](https://ntrs.nasa.gov/api/citations/20080039927/downloads/20080039927.pdf): NASA C++ Coding Standard and Style Guide
 - `2020.09` [NIST SP 800-53 Rev. 5](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf): Security and Privacy Controls for Information Systems and Organizations
-- `2021.02` [NIST IR 8323](https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8323.pdf): Foundational PNT Profile: Applying the Cybersecurity Framework for the Responsible Use of Positioning, Navigation, and Timing (PNT) Services
-- `2022.02` [NIST IR 8270](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8270-draft2.pdf): Introduction to Cybersecurity for Commercial Satellite Operations :construction:
 - `2022.05` [NIST SP 800-161r1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1.pdf): Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations
 - `2022.12` [NIST IR 8401](https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8401.pdf): Satellite Ground Segment: Applying the Cybersecurity Framework to Satellite Command and Control
+- `2023.01` [NIST IR 8323r1](https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8323r1.pdf): Foundational PNT Profile: Applying the Cybersecurity Framework for the Responsible Use of Positioning, Navigation, and Timing (PNT) Services
+- `2023.07` [NIST IR 8270](https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8270.pdf): Introduction to Cybersecurity for Commercial Satellite Operations
 
 ## Papers
 - `2016.04.30` [Satellite Network Hacking & Security Analysis](https://www.cscjournals.org/manuscript/Journals/IJCSS/Volume10/Issue1/IJCSS-1200.pdf), International Journal of Computer Science and Security (IJCSS)
 - `2018.12` [Cybersecurity Principles for Space Systems](https://2ea998fc-9f95-482a-87f8-dd57460966a8.filesusr.com/ugd/e741d3_daa22cd1e5234b8f9139fa9c7406be29.pdf), Journal of Aerospace Computing, Information and Communication
 - `2021.07` [CubeSat Security Attack Tree Analysis](https://www.computer.org/csdl/proceedings-article/smc-it/2021/856000a068/1ANLcp3WNag), 8th IEEE International Conference on Space Mission Challenges for Information Technology (SMC-IT 2021)
-- `2023.05.26` [PCspooF: Compromising the Safety of Time-Triggered Ethernet](https://web.eecs.umich.edu/~barisk/public/pcspoof.pdf), IEEE Symposium on Security and Privacy 2023
+- `2023.05.26` [PCspooF: Compromising the Safety of Time-Triggered Ethernet](https://par.nsf.gov/servlets/purl/10453011), IEEE Symposium on Security and Privacy 2023
 
 ## Reports
 - `2019.11` [Defending Spacecraft in the Cyber Domain](https://aerospace.org/sites/default/files/2019-11/Bailey_DefendingSpacecraft_11052019.pdf)
@@ -155,7 +155,7 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 ## Tools
 - [CITEF](https://www.rheagroup.com/document/citef-pdf-brochure/): Next Generation Cyber-Range Services for space missions :heavy_dollar_sign:
 - [CryptoLib](https://github.com/nasa/CryptoLib): Provide a software-only solution using the CCSDS Space Data Link Security Protocol - Extended Procedures (SDLS-EP) to secure communications between a spacecraft running the core Flight System (cFS) and a ground station.
-- [QA707](https://www.qascom.it/GNSS-software-simulation.php): Fully configurable GNSS Software Defined Radio (SDR) simulator for flexible generations of GNSS signals, interferences and authentication schemes up to RF level :heavy_dollar_sign:
+- [QA707](https://www.qascom.com/products/gnss-simulators/): Fully configurable GNSS Software Defined Radio (SDR) simulator for flexible generations of GNSS signals, interferences and authentication schemes up to RF level :heavy_dollar_sign:
 - [iSAFT](https://www.teletel.eu/products-overview/): Advanced solutions for the validation of satellite/spacecraft on-board data networks including SpaceWire, SpaceFibre, MIL-STD-1553, Time-Triggered Ethernet, CAN/CANOpen, WizardLink and others :heavy_dollar_sign:
 <!--CONTENT-->
 
