@@ -26,6 +26,7 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 - [Table of contents](#table-of-contents)
 - [Legend](#legend)
 - [Books](#books)
+- [Conferences](#conferences)
 - [Directives](#directives)
 - [Papers](#papers)
 - [Reports](#reports)
@@ -51,6 +52,11 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 
 ## Books
 - `2020.03.31` [Cybersecurity for Space: Protecting the Final Frontier](https://www.google.it/books/edition/Cybersecurity_for_Space/31DaDwAAQBAJ?hl=it&gbpv=0): The first book focused on the implementation of cybersecurity for space systems :heavy_dollar_sign:
+- `2026.09` [The Spacecraft Hacker's Handbook](https://nostarch.com/spacecraft-hacking): Exploiting Ground Stations, Flight Software, and Satellite Terminals :heavy_dollar_sign:
+
+## Conferences
+- [Security for Space Systems (3S)](https://security4space.esa.int/): ESA conference on space system security
+- [SpaceSec](https://spacesec.info/past_workshops.html): Workshop on the Security of Space and Satellite Systems, co-located with NDSS
 
 ## Directives
 
@@ -90,6 +96,9 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 - `2022.06.30` [IT baseline protection profile for space infrastructures](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Grundschutz/profiles/Profile_Space-Infrastructures.pdf?__blob=publicationFile&v=2): Minimum Protection for Satellites Covering their Entire Life Cycle
 - `2023.07.28` [Technical Guideline BSI TR-03184](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03184/BSI-TR-03184_part1.pdf?__blob=publicationFile&v=2): Information Security for Space Systems - Part 1: Space segment
 
+### Institute of Electrical and Electronics Engineers (IEEE)
+- `2026.07.24` [IEEE 3536-2026](https://ieeexplore.ieee.org/abstract/document/11623450): IEEE Standard for Space System Cybersecurity Design :heavy_dollar_sign:
+
 ### Ministry of Economy, Trade and Industry (METI)
 - `2023.03` [Cybersecurity Guidelines for Commercial Space Systems](https://www.meti.go.jp/shingikai/mono_info_service/sangyo_cyber/wg_seido/wg_uchu_sangyo/pdf/20230331_1e.pdf)
 
@@ -113,14 +122,21 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 ## Papers
 - `2016.04.30` [Satellite Network Hacking & Security Analysis](https://www.cscjournals.org/manuscript/Journals/IJCSS/Volume10/Issue1/IJCSS-1200.pdf), International Journal of Computer Science and Security (IJCSS)
 - `2018.12` [Cybersecurity Principles for Space Systems](https://2ea998fc-9f95-482a-87f8-dd57460966a8.filesusr.com/ugd/e741d3_daa22cd1e5234b8f9139fa9c7406be29.pdf), Journal of Aerospace Computing, Information and Communication
+- `2020.05.12` [Cyber security in New Space](https://link.springer.com/article/10.1007/s10207-020-00503-w), International Journal of Information Security
 - `2021.07` [CubeSat Security Attack Tree Analysis](https://www.computer.org/csdl/proceedings-article/smc-it/2021/856000a068/1ANLcp3WNag), 8th IEEE International Conference on Space Mission Challenges for Information Technology (SMC-IT 2021)
 - `2023.05.26` [PCspooF: Compromising the Safety of Time-Triggered Ethernet](https://web.eecs.umich.edu/~barisk/public/pcspoof.pdf), IEEE Symposium on Security and Privacy 2023
+- `2025.10.13` [Don't Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites](https://satcom.sysnet.ucsd.edu/docs/dontlookup_ccs25_fullpaper.pdf), ACM CCS 2025
+- `2025.11` [A Key-Update Mechanism for the Space Data Link Security Protocol](https://pure.tue.nl/ws/portalfiles/portal/375669792/llncs.pdf), CANS 2025
+- `2026.05.18` [SatBleed: Security of Commoditized Communication Modules in Satellites](https://arxiv.org/pdf/2610.06258), IEEE Symposium on Security and Privacy 2026
 
 ## Reports
 - `2019.11` [Defending Spacecraft in the Cyber Domain](https://aerospace.org/sites/default/files/2019-11/Bailey_DefendingSpacecraft_11052019.pdf)
 - `2020.10` [Establishing Space Cybersecurity Policy, Standards, & Risk Management Practices](https://aerospace.org/sites/default/files/2020-10/Bailey%20SPD5_20201010%20V2_formatted.pdf)
 - `2021.04.29` [Cybersecurity Protections for Spacecraft: A Threat Based Approach](https://aerospace.org/sites/default/files/2022-07/DistroA-TOR-2021-01333-Cybersecurity%20Protections%20for%20Spacecraft--A%20Threat%20Based%20Approach.pdf)
 - `2023.04` [Space Threat Assessment: A Report of the CSIS Aerospace Security Project](https://csis-website-prod.s3.amazonaws.com/s3fs-public/2023-04/230414_Bingen_Space_Assessment.pdf?VersionId=oMsUS8MupLbZi3BISPrqPCKd5jDejZnJ)
+- `2024.04` [Space Systems Security and Resilience Landscape: Zero Trust in the Space Environment](https://www.cisa.gov/sites/default/files/2024-06/Space%20Systems%20Security%20and%20Resilience%20Landscape%20-%20Zero%20Trust%20in%20the%20Space%20Environment%20%28508%29.pdf), CISA
+- `2026.09` [Space Cyber Threat Intelligence: Threat Landscape Report 2025](https://ethz.ch/content/dam/ethz/special-interest/gess/cis/center-for-securities-studies/pdfs/css-studies-006-en.pdf), ETH Zurich CSS
+- `2026.10` [EU Cybersecurity Industrial Policy for Space](https://ecs-org.eu/publications/eu-cybersecurity-industrial-policy-for-space/), ECSO
 
 ## Talks
 
@@ -131,7 +147,7 @@ If this list is not complete, you can contribute to make it so. Here is a great 
 - `2020.08.05` [Whispers Among the Stars: A Practical Look at Perpetrating Satellite Eavesdropping Attacks](https://www.youtube.com/watch?v=d5Sbwlu6f8o), Black Hat USA 2020
 
 ### CYSAT
-- `2022.04.07` [Cyber range for space a way to optimize the cybersecurity process](https://www.youtube.com/watch?v=Kfwiw-2TkMw), CYSAT 2022
+- [CYSAT YouTube channel](https://www.youtube.com/@CYSAT/videos): Recorded talks from all CYSAT editions
 
 ### DEF CON
 - `2012.10.31` [Satellite Hacking: An Introduction](https://www.youtube.com/watch?v=xIsG8GpB67A), DEF CON Switzerland 2012
